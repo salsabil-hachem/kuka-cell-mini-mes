@@ -1,0 +1,79 @@
+[
+    {
+        "id": "bd9852c1c14a5ed2",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "32518d57654bce47",
+        "type": "mqtt-broker",
+        "name": "Cell A events",
+        "broker": "mosquitto",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ff943bf2779017d5",
+        "type": "mqtt in",
+        "z": "bd9852c1c14a5ed2",
+        "name": "Cell A events",
+        "topic": "autoparts/sousse/cellA/+",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "32518d57654bce47",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "3f8d39b85681d827"
+            ]
+        ]
+    },
+    {
+        "id": "3f8d39b85681d827",
+        "type": "debug",
+        "z": "bd9852c1c14a5ed2",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 460,
+        "y": 140,
+        "wires": []
+    }
+]

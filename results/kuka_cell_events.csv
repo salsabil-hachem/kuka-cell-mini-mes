@@ -1,0 +1,11 @@
+order,serial,station,reason,start,duration_s
+OF-20261009-1229,SN-0003,vision,Camera timeout,2026-10-09T12:30:42,29.2
+OF-20261009-1229,SN-0004,vision,Camera timeout,2026-10-09T12:31:18,19.3
+OF-20261009-1341,SN-0001,infeed,Gripper fault,2026-10-09T13:41:13,77.4
+OF-20261009-1341,SN-0001,cnc,CNC door not open,2026-10-09T13:41:24,28.3
+OF-20261009-1341,SN-0002,infeed,Gripper fault,2026-10-09T13:41:53,33.9
+OF-20261009-1341,SN-0005,cnc,Tool change on CNC,2026-10-09T13:43:45,156.1
+OF-20261009-1347,SN-0001,vision,Camera timeout,2026-10-09T13:47:40,23.6
+OF-20261010-1825,SN-0001,infeed,Part missing on infeed,2026-10-10T18:25:29,34.5
+OF-20261010-1825,SN-0004,infeed,Part missing on infeed,2026-10-10T18:26:04,53.7
+OF-20261010-1825,SN-0005,cnc,Tool change on CNC,2026-10-10T18:26:20,151.9

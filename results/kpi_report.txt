@@ -1,0 +1,19 @@
+KPI REPORT  -  order OF-20261009-1229
+==============================================
+Parts produced      : 5   (OK 5 / NOK 0)
+Planned time        : 220.1 s
+Running time        : 171.6 s
+Downtime            : 48.5 s  in 2 stops
+----------------------------------------------
+Availability (A)    :  78.0 %   running / planned
+Performance  (P)    :  99.7 %   ideal x parts / running
+Quality      (Q)    : 100.0 %   OK / produced
+OEE = A x P x Q     :  77.7 %
+----------------------------------------------
+Cycle time avg/min/max : 34.3 / 34.2 / 34.5 s
+Ideal cycle time       : 34.2 s
+MTBF (between stops)   :   85.8 s
+MTTR (repair time)     :   24.2 s
+----------------------------------------------
+Downtime Pareto (biggest loss first):
+  Camera timeout              2x    48.5 s  100.0 %

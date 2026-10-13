@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*_old.csv
+*.rdk.bak
+Thumbs.db
+nodered/*
+!nodered/flows.json
